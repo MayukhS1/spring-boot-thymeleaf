@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>User Data: Thymeleaf</title>
+</head>
+<body>
+
+<h3>Thymeleaf User Table Print</h3>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>User Name</th>
+            <th>Grade</th>
+        </tr>
+        <tr th:each="user: ${list}">
+            <td th:text="${user.id}"></td>
+            <td th:text="${user.name}"></td>
+            <td th:text="${user.grade}"></td>
+        </tr>
+    </table>
+
+    <h3>Useful Links (Normal a href links in html)</h3>
+    <p><a href="https://github.com/LaunchCodeEducation/cheatsheets/tree/master/thymeleaf"><b>Thymeleaf Cheat Sheet</b></a></p>
+    <p><a href="https://stackoverflow.com/questions/35856812/accessing-model-attributes-in-thymleaf-and-spring-boot"><b>Thymeleaf List Error Solve Stackoverflow</b></a></p>
+
+    <h3>Thymeleaf Links(URL) using th:href </h3>
+    <!-- redirect to demo page without parameter -->
+    <a th:href="@{~/demo}">Visit Demo Page</a> <br />
+    <!-- redirect to demo page with parameter -->
+    <a th:href="@{~/demo(id=1)}">Visit Demo page With ID Parameter</a> <br/>
+    <a th:href="@{~/demo(id=3, name=Goku)}">Visit Demo page With ID and Name Parameter</a>
+
+    <h3>Thymeleaf Scopes</h3>
+    Request: <span th:text="${#httpServletRequest.getAttribute('request')}"></span><br />
+    Session: <span th:text="${session.session}"></span><br />
+    Application: <span th:text="${application.application}"></span><br />
+</body>
+</html>
