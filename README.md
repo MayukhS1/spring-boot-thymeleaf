@@ -1,7 +1,7 @@
 # spring-boot-thymeleaf
-Created the project from: https://start.spring.io/ and created a new spring boot project named spring-boot-thymeleaf with Thymeleaf and web as dependency.
+Created the project from: [spring.io!](https://start.spring.io/) and created a new spring boot project named **spring-boot-thymeleaf** with *Thymeleaf and web as dependency.*
 
-#what is thymeleaf?
+## what is thymeleaf?
 Thymeleaf is an engine that builds dynamic pages from templates that are written in XHTML with the help of some special attributes, so it is a template engine.
 
 A template engine is an engine that parses XHTML/HTML pages that contain special tags or attributes or syntax that is bound to variables at the server, and resolves them into their values, then parses the page according to those values and builds a normal HTML page.
@@ -12,4 +12,4 @@ Thymeleaf is a template engine that relays mostly on attributes instead of tags 
 
 Those attributes are then translated and processed by Thymeleaf into normal HTML.
 
-##more @: https://github.com/LaunchCodeEducation/cheatsheets/tree/master/thymeleaf 
+### more @: https://github.com/LaunchCodeEducation/cheatsheets/tree/master/thymeleaf 
