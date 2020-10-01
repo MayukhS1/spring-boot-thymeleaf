@@ -1,5 +1,5 @@
 # spring-boot-thymeleaf
-Created the project from: [spring.io!](https://start.spring.io/) and created a new spring boot project named **spring-boot-thymeleaf** with *Thymeleaf and web as dependency.*
+Created the project from: [spring.io](https://start.spring.io/) and created a new spring boot project named **spring-boot-thymeleaf** with *Thymeleaf and web as dependency.*
 
 ## what is thymeleaf?
 Thymeleaf is an engine that builds dynamic pages from templates that are written in XHTML with the help of some special attributes, so it is a template engine.
@@ -17,7 +17,9 @@ Those attributes are then translated and processed by Thymeleaf into normal HTML
 ## UPDATE: (1/10/2020) 
 ### Adding HOT SWAP 
 HOT SWAP is a spring boot dev tool which enable hot swapping and fast application restarts when a class file in the classpath changes. This speeds up development by reducing the time spent in a change, re-build and manually restarting the container. 
+
 However, the devtools only swing into action when a file in the classpath is changed. This does not happen by default in IntelliJ when you make a change to a java class file and save it. To make it happen, either:
+
 _Build project (Cmd + F9) which recompiles files and updates the classpath folder, thereby triggering the devtools to do a fast app restart_
 
 __or__
@@ -25,7 +27,7 @@ __or__
 _Make the following change to the IDE registry (Cmd + Shift + A) entry for the following attribute to true_
 ___compiler.automake.allow.when.app.running___
 
-[for more info!](https://docs.spring.io/spring-boot/docs/2.0.x/reference/html/howto-hotswapping.html) 
+[for more info](https://docs.spring.io/spring-boot/docs/2.0.x/reference/html/howto-hotswapping.html) 
 *****************************************************************************************************************************************************************************************
 
 
