@@ -29,7 +29,7 @@
     <a th:href="@{~/demo}">Visit Demo Page</a> <br />
     <!-- redirect to demo page with parameter -->
     <a th:href="@{~/demo(id=1)}">Visit Demo page With ID Parameter</a> <br/>
-    <a th:href="@{~/demo(id=3, name=Goku)}">Visit Demo page With ID and Name Parameter</a>
+    <a th:href="@{~/demo(id=3, name=goku_3)}">Visit Demo page With ID and Name Parameter</a>
 
     <h3>Thymeleaf Scopes</h3>
     Request: <span th:text="${#httpServletRequest.getAttribute('request')}"></span><br />

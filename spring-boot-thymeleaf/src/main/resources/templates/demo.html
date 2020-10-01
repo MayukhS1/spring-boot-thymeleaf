@@ -8,7 +8,7 @@
     <span th:text="${welcome_message}"></span>
     <h3>Exam Result</h3>
     <div th:if="${grade} >= 40">
-        <p>Congratulation! You have passed the Exam.</p>
+        <p>Congratulation! You have Successfully passed the Exam.</p>
         <div th:switch="${GPA}">
             <p>Your performance was:</p>
             <span th:case="S">Excellent</span>
@@ -16,10 +16,11 @@
             <span th:case="B">Good</span>
             <span th:case="C">Okay</span>
             <span th:case="D">Need improvement</span>
+            <span th:case="E">You need to meet me in the office!</span>
         </div>
     </div>
     <div th:if="${grade} < 40">
-        <p>You failed the exam.</p>
+        <p>Sorry! You failed the exam.</p>
     </div>
 </body>
 </html>

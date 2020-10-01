@@ -15,8 +15,8 @@ public class UserController {
     @RequestMapping("/demo")
     public String demo (Model model){
 
-        model.addAttribute("welcome_message","Hello User, It's a Thymeleaf model");
-        double grade = 84.6;
+        model.addAttribute("welcome_message","Welcome User, It's a Thymeleaf model");
+        double grade = 40.5;
         model.addAttribute("grade", grade);
         model.addAttribute("GPA", convertGPA(grade));
 
@@ -34,6 +34,8 @@ public class UserController {
             return "C";
         else if(grade>=50)
             return "D";
+        else if(grade>=40)
+            return "E";
         else
             return "F";
     }
