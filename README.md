@@ -31,6 +31,25 @@ ___compiler.automake.allow.when.app.running___
 
 [for more info](https://docs.spring.io/spring-boot/docs/2.0.x/reference/html/howto-hotswapping.html) 
 *****************************************************************************************************************************************************************************************
+## UPDATE
+### Adding Logging 
+
+Spring Boot supports Java Util Logging, Log4j2, and Logback. By default, it uses Logback. With these logging components, you can configure the console logging as well as file logging for you to quickly detect problems and the source of the problems. The default Spring Boot logging provides the following information.
+
+1.Date and time.
+
+2.Log level - INFO, ERROR, TRACE, WARN. 
+
+3.Process ID
+
+4.Thread Name
+
+5.Logger name - the source of the class.
+  Log message
+  
+******************************************************************************************************************************************************************************************
+
+
 
 
 
