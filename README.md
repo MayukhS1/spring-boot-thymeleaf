@@ -27,6 +27,8 @@ __or__
 _Make the following change to the IDE registry (Cmd + Shift + A) entry for the following attribute to true_
 ___compiler.automake.allow.when.app.running___
 
+[complete set-up Guide](https://mkyong.com/spring-boot/intellij-idea-spring-boot-template-reload-is-not-working/)
+
 [for more info](https://docs.spring.io/spring-boot/docs/2.0.x/reference/html/howto-hotswapping.html) 
 *****************************************************************************************************************************************************************************************
 
